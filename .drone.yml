@@ -1,0 +1,12 @@
+kind: pipeline
+type: docker
+name: build
+image: matseee/node:node18.7.0-alpine3.16
+steps:
+- name: lint
+  commands:
+    - npm install
+    - npm run lint
+- name: build
+  commands:
+    - npm run build

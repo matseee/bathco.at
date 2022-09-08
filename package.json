@@ -4,19 +4,16 @@
   "description": "bathcoatcrew webpage",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open",
-    "lint": "npx eslint src/**",
+    "start": "npx webpack serve --config webpack.dev.js",
+    "lint": "npx eslint src/**/*.ts",
     "build": "npx webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@167.86.93.92:2222/matse/bathco.at.git"
   },
   "author": "Matthias Fischer",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "eslint": "^8.23.0",
+    "html-webpack-plugin": "^5.5.0",
     "sass": "^1.54.9",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",

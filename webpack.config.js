@@ -1,8 +1,9 @@
 const path = require('path');
+const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/main.ts',
-    mode: 'development',
+    mode: 'production',
     module: {
         rules: [
             {
@@ -23,9 +24,16 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
     },
+
+    plugins: [
+        new htmlWebpackPlugin({
+            template: 'static/index.html'
+        })
+    ],
+
     devServer: {
         static: {
-            directory: path.join(__dirname, 'public'),
+            directory: path.join(__dirname, 'static'),
         },
-    },
+    }
 };
