@@ -1,1 +1,2 @@
-# bathco.at crew [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://ci.matse.dev/api/badges/matse/bathco.at/status.svg)](https://ci.matse.dev/matse/bathco.at)
+# bathco.at [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://ci.matse.dev/api/badges/matse/bathco.at/status.svg)](https://ci.matse.dev/matse/bathco.at)
+webgl webpage of the bathcoat crew
