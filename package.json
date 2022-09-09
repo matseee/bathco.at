@@ -11,6 +11,7 @@
   "author": "Matthias Fischer",
   "license": "MIT",
   "devDependencies": {
+    "@types/three": "^0.144.0",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "css-loader": "^6.7.1",
@@ -24,5 +25,8 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.0"
+  },
+  "dependencies": {
+    "three": "^0.144.0"
   }
 }
